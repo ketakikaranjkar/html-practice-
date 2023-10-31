@@ -66,6 +66,8 @@
       width="400"
       height="379"
     />
+
+    <!--  formating tags  <i> <s> <u> <sup> <sub> -->
     <p>
       Lorem <i>ipsum</i> dolor sit, amet consectetur adipisicing elit.
       Necessitatibus aperiam expedita blanditiis sunt omnis quidem, quod, animi
@@ -80,8 +82,77 @@
     <p></p>
    </p>
     </table>
+
+    <!-- create tags using emmet -->
+    <!-- "artical+section" -->
     <article>sdfdg</article>
     <section>12345</section>
-    p{m}
+
+<!-- create "id" shortcut key -->
+<!-- article#baby1    (# create a "id" atribute) -->
+    <article id="baby1"></article>
+
+<!-- create class shortcut key -->
+<!-- p.para1    (. create a "class" atribute) -->
+     <p class="para1"></p>
+
+<!-- emmet "section>(ul>li*2)*2" -->
+     <section>
+      <ul>
+        <li>ketaki</li>
+        <li>pooja</li>
+      </ul>
+      <ul>
+        <li>swara</li>
+        <li>manaswi</li>
+      </ul>
+     </section>
+
+<!-- block level element -->
+<!-- div  -->
+<div style="background-color: aqua;">
+  this is my first div
+</div>
+
+<!-- inline element -->
+<!-- span  -->
+<span style="background-color: brown;">
+  this is my first span
+</span>
+<p style="background-color: blueviolet; display: inline;">hii ketaki</p>
+
+<!-- ul>(li>p>a)*7 -->
+<ul>
+  <li>
+    <p><a href="https://google.com">G</a></p>
+  </li>
+  <li>
+    <p><a href="https://instagram.com">S</a></p>
+  </li>
+  
+</ul>
+
+<!-- <li> list tag is block level element. but we want to navbar is inline..-->
+  <!-- so we can take style atribute in list <li> tag -->
+  <nav>
+    <span>
+      <ul>
+        <li style="display: inline;"><a href="">Home Page</a></li>
+        <li style="display: inline;"><a href="">About</a></li>
+        <li style="display: inline;"><a href="">Contact us</a></li>
+        <li style="display: inline;"><a href="">Login page</a></li>
+      </ul>
+    </span>
+  </nav>
+
+  <!-- use <a>  tag(a means anchor) anchor tag use for hyperlink -->
+<a href="https://www.thecodehelp.in"> code help</a>
+
+<!-- use <a> tag for sending mail -->
+  <a href="mailto:ketaki1karanjkar@gmail.com">Email</a>
+
+<!-- use <a> tag for call -->
+  <a href="tel:9156149840">Call us</a>
+
   </body>
 </html>
